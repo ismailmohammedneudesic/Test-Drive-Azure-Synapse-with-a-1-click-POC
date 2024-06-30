@@ -1,6 +1,10 @@
 {
 	"name": "AzureSynapseAnalyticsFaresData",
 	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSynapseAnalytics1",
+			"type": "LinkedServiceReference"
+		},
 		"parameters": {
 			"SynapseWorkspaceName": {
 				"type": "string"
@@ -17,9 +21,6 @@
 		},
 		"annotations": [],
 		"type": "AzureSqlDWTable",
-		"schema": [],
-		"typeProperties": {
-			"table": "FaresData"
-		}
+		"schema": []
 	}
 }

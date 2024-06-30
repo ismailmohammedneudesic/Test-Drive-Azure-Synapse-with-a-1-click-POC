@@ -1,6 +1,10 @@
 {
 	"name": "azureSynapseAnalyticsTable",
 	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSynapseAnalytics1",
+			"type": "LinkedServiceReference"
+		},
 		"parameters": {
 			"SchemaName": {
 				"type": "string"
@@ -28,8 +32,7 @@
 			"schema": {
 				"value": "@dataset().SchemaName",
 				"type": "Expression"
-			},
-			"table": "AggregateTaxiData"
+			}
 		}
 	}
 }

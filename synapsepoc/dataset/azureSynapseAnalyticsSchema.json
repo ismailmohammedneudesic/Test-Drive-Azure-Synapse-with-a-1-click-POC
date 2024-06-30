@@ -1,6 +1,10 @@
 {
 	"name": "azureSynapseAnalyticsSchema",
 	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSynapseAnalytics1",
+			"type": "LinkedServiceReference"
+		},
 		"parameters": {
 			"SynapseWorkspaceName": {
 				"type": "string"
