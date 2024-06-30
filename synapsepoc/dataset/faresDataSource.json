@@ -1,10 +1,6 @@
 {
 	"name": "faresDataSource",
 	"properties": {
-		"linkedServiceName": {
-			"referenceName": "HttpServerTripFareDataLinkedService",
-			"type": "LinkedServiceReference"
-		},
 		"folder": {
 			"name": "TripFareDatasets"
 		},
